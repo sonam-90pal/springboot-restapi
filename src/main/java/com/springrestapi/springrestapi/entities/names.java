@@ -1,7 +1,12 @@
 package com.springrestapi.springrestapi.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class names {
 
+	@Id
 	 private long empid;
 	 private String name;
 	 private String job;

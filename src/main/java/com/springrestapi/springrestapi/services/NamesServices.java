@@ -11,4 +11,8 @@ public interface NamesServices {
 	public names getname(long empid);
 	
 	public names addname(names name);
+	
+	public names updatename(names name);
+	
+	public void deletename(long parseLong);
 }
